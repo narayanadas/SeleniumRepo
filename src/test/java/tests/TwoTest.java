@@ -11,6 +11,7 @@ public class TwoTest extends Base{
 	@Test
 	public void twoTest() throws IOException, InterruptedException {
 		System.out.println("inside test Two");
+		System.out.println("Updated need to accessed by karan");
 		
 		WebDriver driver = initializeDriver();
 		driver.get("http://www.tutorialsninja.com/demo/"); 
